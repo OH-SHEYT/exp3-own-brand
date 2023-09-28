@@ -1,0 +1,180 @@
+body{
+	background-image: linear-gradient(to right, red , yellow);
+	color: white;
+}
+.btn{
+	background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+	border-radius: 5px;
+	border-width: 2px;
+}
+.btn:focus{
+    box-shadow: none !important;
+    border-color: white;
+}
+/*title*/
+#title{
+	position: relative;
+}
+.dropdown-toggle::after {
+    content: none;
+	font-size: 1.5rem;
+}
+.title-section{
+	font-weight: 200;
+	color: white;
+}
+.navbar-brand, .navbar-brand:hover{
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 2.5rem;
+	padding-left: 2%;
+}
+.nav-link{
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 1.5rem;
+}
+.nav-link:hover{
+	color: #ffffffc4;
+}
+.dropdown-design{
+	background-color: #383735;
+	
+}
+.item-design{
+	color: #ffffff;
+}
+.item-design:hover{
+	background-image: linear-gradient(to left, red , yellow);
+	border-radius: 2px;
+}
+.carousel-sec{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.title-left{
+	padding-top: 15%;
+}
+.title-right{
+	position: relative;
+	z-index: 2;
+}
+.title-image{
+	border-radius: 10px;
+}
+.nav-custom-title{
+	margin-bottom: 3%;
+}
+
+/*Use cases*/
+.slanted-div {
+	position: relative;
+	padding-top: 100px;
+	background: #1C1B1B;
+	z-index: -1;
+  }
+  
+  /* where the magic happens */
+  .slanted-div:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	top: 0;
+	transform-origin: left top;
+	transform: skewY(-3deg);
+  }
+.use-cases-section{
+
+}
+.use-cases-row{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+.use-cases-card{
+	background-color: #202020;
+	position: relative;
+	padding: 10px 20px;
+	color: white;
+	margin: 5px;
+	border-radius: 5px;
+}
+.use-cases-card::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+  
+	margin: -5px;
+	border-radius: inherit;
+	background-image: linear-gradient(45deg, purple, orange);
+  }
+  .fa-color{
+	color: #606060;
+	margin: 1%;
+	font-size: 500%;
+  }
+  .icon-bar{
+	text-align: center;
+	padding: 2.5%;
+	margin-bottom: 0%;
+  }
+
+
+
+  #supp-com{
+
+  }
+
+  .supp-section{
+	margin-left: 10%;
+	margin-right: 10%;
+  }
+  .supp-button{
+	--bs-btn-padding-y: 5rem;
+	--bs-btn-padding-x: 5rem;
+	--bs-btn-font-size: .75rem;
+  }
+
+
+
+
+/*footer*/
+#footer{
+	
+}
+.footer-section{
+	overflow: auto;
+	background-color: #2B2A29;
+	
+}
+.row-footer{
+	margin-top: 3%;
+}
+.footer-1, .footer-3{
+	text-align: center;
+}
+.footer-2{
+	font-size: 1.1rem;
+	line-height: 0.6;
+}
+.newsletter, .newsletter:hover{
+	background-color: #E0E0E0;
+	color: #1C1B1B;
+}
+.copy-right{
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 5%;
+	color: #575756;
+}
