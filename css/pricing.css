@@ -13,6 +13,9 @@ body{
     box-shadow: none !important;
     border-color: white;
 }
+h5{
+	font-size: 2.5rem;
+}
 /*title*/
 #title{
 	position: relative;
@@ -113,7 +116,7 @@ p.sub{
 	background-color: #F2F2F2;
 	position: relative;
 	padding: 10px 20px;
-	color: black;
+	color: #F15A2C;
 	margin: 5px;
 	border-radius: 5px;
 }
@@ -174,10 +177,8 @@ p.sub{
   .gradient-button:hover::after{
 	color: white;
   }
-  .fa-color{
-	color: #606060;
-	margin: 1%;
-	font-size: 500%;
+  .price-color{
+	color: black;
   }
 
 
