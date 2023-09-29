@@ -132,20 +132,12 @@ body{
 
 
 
-  #supp-com{
 
-  }
+.review-section{
+	text-align: center;
+	margin-bottom: 30% 0;
 
-  .supp-section{
-	margin-left: 10%;
-	margin-right: 10%;
-  }
-  .supp-button{
-	--bs-btn-padding-y: 5rem;
-	--bs-btn-padding-x: 5rem;
-	--bs-btn-font-size: .75rem;
-  }
-
+}
 
 
 
@@ -171,6 +163,10 @@ body{
 .newsletter, .newsletter:hover{
 	background-color: #E0E0E0;
 	color: #1C1B1B;
+}
+.email-size{
+	font-size: 1.2rem;
+	padding: 18px;
 }
 .copy-right{
 	text-align: center;
