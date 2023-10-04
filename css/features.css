@@ -1,0 +1,239 @@
+
+body{
+	background-color: #F2F2F2;
+	font-family: 'Sofia Sans', sans-serif;
+}
+.btn{
+	background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+	border-radius: 5px;
+	border-width: 2px;
+}
+.btn:focus{
+    box-shadow: none !important;
+    border-color: white;
+}
+h5{
+	font-size: 2.5rem;
+}
+h3{
+	font-size: 2.5rem;
+}
+/*title*/
+#title{
+	position: relative;
+}
+.dropdown-toggle::after {
+    content: none;
+	font-size: 1.5rem;
+}
+.title-section{
+	font-weight: 200;
+	color: black;
+}
+.navbar-brand, .navbar-brand:hover{
+	font-weight: 600;
+	font-size: 2.5rem;
+	padding-left: 2%;
+	background: -webkit-linear-gradient(red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.nav-link{
+	font-weight: 400;
+	color: black;
+	font-size: 1.5rem;
+}
+.nav-link:hover{
+	color: #F15A2C;
+}
+.dropdown-design{
+	background-color: #383735;
+	
+}
+.item-design{
+	color: #ffffff;
+}
+.item-design:hover{
+	background-image: linear-gradient(to left, red , yellow);
+	border-radius: 2px;
+}
+.nav-custom-title{
+	margin-bottom: 3%;
+}
+.div-row{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.title-right{
+	position: relative;
+	z-index: 0;
+
+}
+
+/*Features*/
+.slanted-div {
+	position: relative;
+	padding-top: 100px;
+	background: #1C1B1B;
+	z-index: -1;
+  }
+  
+  /* where the magic happens */
+  .slanted-div:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	top: 0;
+	transform-origin: left top;
+	transform: skewY(-3deg);
+  }
+#features{
+	position: relative;
+	z-index: 0;
+}
+.header-uses{
+    color: white;
+}
+.parent-features{
+	margin: 0 10%;
+}
+.header-features{
+	color: white;
+}
+.features-row{
+	margin: 0 10%;
+}
+.p-features{
+	font-size: 1.3rem;
+}
+p.sub{
+	font-size: 1.1rem;
+}
+.faq-card{
+	background-color: #F2F2F2;
+}
+
+.gradient-border{
+	background-color: #F2F2F2;
+	position: relative;
+	padding: 10px 20px;
+	color: #F15A2C;
+	margin: 5px;
+	border-radius: 5px;
+}
+.gradient-border:hover::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	margin: -5px;
+	border-radius: inherit;
+	background-image: linear-gradient(45deg, purple, orange);
+  }
+  .features-card{
+	padding: 8px;
+  }
+  .gradient-button {
+	padding: 20px 60px;
+	width: 100%;
+	border: none;
+	outline: none;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	background: linear-gradient(to right, purple, orange);
+	cursor: pointer;
+	font-weight: 600;
+  }
+  .gradient-button::before {
+	content: "";
+	position: absolute;
+	left: 3px;
+	right: 2px;
+	top: 2px;
+	bottom: 2px;
+	border-radius: 4px;
+	background-color: white;
+	z-index: -1;
+	transition: 200ms
+  }
+  .gradient-button::after {
+	content: attr(data);
+	font-size: 16px;
+	background: red;
+	-webkit-background-clip: text;
+	color: transparent;
+	transition: 200ms
+  }
+  .gradient-button:hover::before {
+	opacity: 1%;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	left: 1px;
+  }
+  .gradient-button:hover::after{
+	color: white;
+  }
+  .price-color{
+	color: black;
+  }
+
+
+/*footer*/
+#footer{
+	
+}
+.footer-section{
+	overflow: auto;
+	background-color: #2B2A29;
+	color: white;
+}
+.row-footer{
+
+}
+.footer-1, .footer-3{
+	text-align: center;
+}
+.footer-2{
+	font-size: 1.1rem;
+}
+.newsletter, .newsletter:hover{
+	background-color: #E0E0E0;
+	color: #1C1B1B;
+}
+.email-size{
+	font-size: 1.2rem;
+	padding: 18px;
+}
+.copy-right{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	color: #575756;
+}
+.foot-icon{
+	font-size: 30px;
+	padding: 5px;
+	color: white;
+}
+
+
+@media (max-width: 320px){
+	h5{
+		font-size: 1rem;
+	}
+	.foot-icon{
+		margin-top: 30px;
+		font-size: 25px;
+	}
+  }

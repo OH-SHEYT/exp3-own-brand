@@ -1,6 +1,7 @@
 body{
 	background-image: linear-gradient(to right, red , yellow);
 	color: white;
+	font-family: 'Sofia Sans', sans-serif;
 }
 .btn{
 	background: none;
@@ -13,6 +14,13 @@ body{
 .btn:focus{
     box-shadow: none !important;
     border-color: white;
+}
+h1{
+	font-size: 4rem;
+}
+h5{
+	font-size: 2rem;
+	color: #F15A2C;
 }
 /*title*/
 #title{
@@ -54,6 +62,10 @@ body{
 .carousel-sec{
 	margin-left: 10%;
 	margin-right: 10%;
+}
+.carousel-p{
+	font-size: 1.5rem;
+	width: 80%;
 }
 .title-left{
 	padding-top: 15%;
@@ -98,6 +110,7 @@ body{
 	margin-top: 1.5%;
 	margin-bottom: 1.5%;
 }
+
 .use-cases-card{
 	background-color: #202020;
 	position: relative;
@@ -122,7 +135,7 @@ body{
   .fa-color{
 	color: #606060;
 	margin: 1%;
-	font-size: 500%;
+	font-size: 4rem;
   }
   .icon-bar{
 	text-align: center;
@@ -130,16 +143,26 @@ body{
 	margin-bottom: 0%;
   }
 
-
-
-
-.review-section{
-	text-align: center;
-	margin-bottom: 30% 0;
-
+  .card{
+	margin: 2rem;
 }
 
 
+/*reviews*/
+.review-section{
+	text-align: center;
+
+}
+
+.carousel-fix-size-review{
+	height: 300px;
+	margin: auto;
+	font-size: 1.5rem;
+	
+}
+.p-reviews{
+	padding: 10%;
+}
 
 /*footer*/
 #footer{
@@ -151,14 +174,13 @@ body{
 	
 }
 .row-footer{
-	margin-top: 3%;
+
 }
 .footer-1, .footer-3{
 	text-align: center;
 }
 .footer-2{
 	font-size: 1.1rem;
-	line-height: 0.6;
 }
 .newsletter, .newsletter:hover{
 	background-color: #E0E0E0;
@@ -170,7 +192,39 @@ body{
 }
 .copy-right{
 	text-align: center;
-	margin-top: 4%;
+	margin-top: 2%;
 	margin-bottom: 5%;
 	color: #575756;
 }
+.foot-icon{
+	font-size: 30px;
+	padding: 5px;
+}
+
+@media (max-width: 320px){
+	.p-reviews{
+	  font-size: 0.9rem;
+	}
+	.foot-icon{
+		margin-top: 30px;
+		font-size: 25px;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	.carousel-p{
+		font-size: 1.2rem;
+	}
+	.fa-color{
+		color: #606060;
+		margin: 1%;
+		font-size: 2rem;
+	  }
+	  .use-cases-row{
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 1.5%;
+		margin-bottom: 1.5%;
+	}
+	
+  }

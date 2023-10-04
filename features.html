@@ -1,101 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!--Boot strap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!--CSS Stylesheets -->
-    <link rel="stylesheet" href="css/pricing.css">
-    <!--Fontawsome  -->
-    <script src="https://kit.fontawesome.com/1ebc92d2c8.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--Boot strap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!--CSS Stylesheets -->
+  <link rel="stylesheet" href="css/features.css">
+  <!--Fontawsome  -->
+  <script src="https://kit.fontawesome.com/1ebc92d2c8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-
-    <section class="title-section" id="title">
-        <nav class="navbar navbar-expand-lg navbar-light nav-custom-title">
-            <div class="container-fluid div-title">
-                <a class="navbar-brand" href="index.html">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pricing.html">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Use Cases</a>
-                        </li>
-                        <div class="btn-group">
-                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </button>
-                            <ul class="dropdown-menu dropdown-design">
-                                <li><a class="dropdown-item item-design" href="#">Menu item</a></li>
-                                <li><a class="dropdown-item item-design" href="#">Menu item</a></li>
-                                <li><a class="dropdown-item item-design" href="#">Menu item</a></li>
-                            </ul>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="purchase-div">
-            <h1>Purchase brand OS</h1>
+  <!--Title-->
+  <section class="title-section" id="title">
+    <nav class="navbar navbar-expand-lg navbar-light nav-custom-title">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">HLOS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+          </ul>
         </div>
-    </section>
+      </div>
+    </nav>
+    <div class="row g-0 div-row">
+      <div class="title-left col-lg-6">
+        <h1>More Than a NAS OS</h1>
+        <p>HomeLab OS allows you to have ultimate control over your data, media, applications, and desktops, using just about any combination of hardware.</p>
+      </div>
+      <div class="title-right col-lg-6">
+        <img class="img-fluid" src="images/web_ui.png" alt="">
+      </div>
+    </div>
+  </section>
 
-    <!--USE CASES-->
-    <section class="use-cases-section slanted-div" id="use-cases">
-        <div class="row use-cases-row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card use-cases-card">
-                <div class="card-body">
-                  <h5 class="card-title">Hardcore Gamers</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card use-cases-card">
-                <div class="card-body">
-                  <h5 class="card-title">Data Storage Users</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
+  <!--FEATURES-->
+  <section class="features-section slanted-div" id="features">
+    <div class="parent-features">
+      <div class="header-features">
+        <h3>Control your Data</h3>
+        <p>Break the confines of a single OS.</p>
+        <br>
+        <p>HomeLab OS lets you partition system resources to store and protect data, run any application, and create VMs in isolated environments</p>
+      </div>
+      <div class="card mb-4 mx-auto faq-card">
+        <div class="card-body">
+          <h5 class="p-features">Web-Based Dashboard</h5>
         </div>
-        <div class="row use-cases-row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card use-cases-card">
-                <div class="card-body">
-                  <h5 class="card-title">Multi-OS Users</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card use-cases-card">
-                <div class="card-body">
-                  <h5 class="card-title">Digital Media Mavericks</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="card mb-4 mx-auto faq-card">
+        <div class="card-body">
+          <h5 class="p-features">Containerization Support</h5>
         </div>
+      </div>
+      <div class="card mb-4 mx-auto faq-card">
+        <div class="card-body">
+          <h5 class="p-features">Service Discovery</h5>
+        </div>
+      </div>
+      <div class="card mb-4 mx-auto faq-card">
+        <div class="card-body">
+          <h5 class="p-features">Automation and Orchestration</h5>
+        </div>
+      </div>
+      <div class="card mx-auto faq-card">
+        <div class="card-body">
+          <h5 class="p-features">Security Features</h5>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="footer-section" id="footer">
+    <div class="row-footer container-fluid">
+      <div class="row g-0 d-flex align-items-center">
+        <div class="col-sm-3 footer-1">
+          <img src="images/logo.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-5 footer-2">
+          <p class="lh-0.6">Newsletter Sign Up</p>
+          <p class="lh-0.6">Stay informed about all things HomeLab OS by signing up for our monthly newsletter</p>
+          <form>
+            <div class="d-flex">
+              <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control email-size"
+                    placeholder="Enter your email"
+                    aria-label="Example input"
+                    aria-describedby="button-addon1"
+                  />
+                  <button class="btn newsletter email-size" type="button" id="button-addon1" data-mdb-ripple-color="dark">Subscribe</button>
+              </div>
+          </div>        
+          </form>
+        </div>
+        <div class="col-sm-3 footer-3">
+          <i class="foot-icon fab fa-twitter"></i>
+          <i class="foot-icon fab fa-facebook-f"></i>
+          <i class="foot-icon fab fa-instagram"></i>
+          <i class="foot-icon fas fa-envelope"></i>
+  
+        </div>
+      </div>
+      <div class="container-fluid copy-right">
+        <p>© Copyright 2023 HomeLab OS</p>
+      </div>
+    </div>
 
-    </section>
-
-
-
+  </footer>
 </body>
+
 </html>
